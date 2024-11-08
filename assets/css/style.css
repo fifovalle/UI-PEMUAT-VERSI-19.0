@@ -1,3 +1,7 @@
+:root {
+  --warna-latar: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,19 +13,19 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #000;
+  background-color: var(--warna-latar);
 }
 
 .kartu {
   padding: 1rem 2rem;
   border-radius: 1.25rem;
 }
+
 .pemuat {
   color: rgb(124, 124, 124);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 25px;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 40px;
   padding: 10px 10px;
@@ -35,15 +39,16 @@ body {
   overflow: hidden;
   position: relative;
 }
+
 .kataKata::after {
   content: "";
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    var(--bg-color) 10%,
+    var(--warna-latar) 10%,
     transparent 30%,
     transparent 70%,
-    var(--bg-color) 90%
+    var(--warna-latar) 90%
   );
   z-index: 20;
 }
@@ -53,47 +58,39 @@ body {
   height: 100%;
   padding-left: 6px;
   color: greenyellow;
-  animation: spin_4991 4s infinite;
+  animation: animasi 4s infinite;
 }
 
-@keyframes spin_4991 {
+@keyframes animasi {
   10% {
-    -webkit-transform: translateY(-102%);
     transform: translateY(-102%);
   }
 
   25% {
-    -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
 
   35% {
-    -webkit-transform: translateY(-202%);
     transform: translateY(-202%);
   }
 
   50% {
-    -webkit-transform: translateY(-200%);
     transform: translateY(-200%);
   }
 
   60% {
-    -webkit-transform: translateY(-302%);
     transform: translateY(-302%);
   }
 
   75% {
-    -webkit-transform: translateY(-300%);
     transform: translateY(-300%);
   }
 
   85% {
-    -webkit-transform: translateY(-402%);
     transform: translateY(-402%);
   }
 
   100% {
-    -webkit-transform: translateY(-400%);
     transform: translateY(-400%);
   }
 }
