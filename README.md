@@ -1,4 +1,4 @@
-**Selamat Datang di "UI Tombol Versi 21.0" User Interface! 🚀**
+**Selamat Datang di "UI Pemuat Versi 19.0" User Interface! 🚀**
 
 Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat lunak. Dari aplikasi web hingga proyek mobile, temukan ragam proyek yang mencerminkan dedikasi saya dalam teknologi.
 
@@ -9,7 +9,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat 
 
 ### 🚀 Fitur Utama
 
-- **User Interface:** Tombol Versi 21.0
+- **User Interface:** Pemuat Versi 19.0
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -20,7 +20,7 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat 
 
 Berikut adalah beberapa tampilan halaman website :
 
-![Screenshot 2024-11-08 185722](https://github.com/user-attachments/assets/30146c6b-114b-43a9-91f8-ba28c6c58a61)
+![proyek80](https://github.com/user-attachments/assets/35d63d8d-de06-42b9-a907-006a9f7e122b)
 
 ## 📬 Kontak
 
@@ -35,7 +35,7 @@ Kontribusi dan umpan balik dari komunitas sangat dihargai. Jika Anda ingin berko
 1. Clone repositori ini ke direktori web server Anda.
 
    ```
-   git clone https://github.com/fifovalle/UI-TOMBOL-VERSI-21.0.git
+   git clone https://github.com/fifovalle/UI-PEMUAT-VERSI-19.0.git
 
    ```
 
